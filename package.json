@@ -1,0 +1,18 @@
+{
+  "name": "chaospoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "homepage": "https://github.com/Alexander1994/chaos-points#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/main.ts -p [ tsify --noImplicitAny ] | uglifyjs > dist/bundle.min.js"
+  },
+  "author": "Alex M",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.3.0",
+    "tsify": "^3.0.1",
+    "typescript": "^2.4.2"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaos Points</title>
+</head>
+<body>
+    <style>
+        canvas {
+            border: solid black 2px;
+            display: block;
+        }
+        #pointList {
+            float: right;
+        }
+        #pointList input {
+            width: 36px;
+        }
+    </style>
+    <button id="genPointsBtn">Generate Points</button>
+    <input id="genPointsCount" type="number" value="500" />
+
+    <button id="clearGenPoints">Clear Generate Points</button>
+    <button id="clearUserPoints">Clear User Points</button>
+    <div id="pointList"></div>
+
+    <canvas width="570" height="570" id="canvasEl"></canvas>
+    <script src="dist/bundle.min.js"></script>
+</body>
+</html>
