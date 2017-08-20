@@ -6,7 +6,8 @@
   "homepage": "https://github.com/Alexander1994/chaos-points#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify src/main.ts -p [ tsify --noImplicitAny ] | uglifyjs > dist/bundle.min.js"
+    "build": "browserify src/main.ts -p [ tsify --noImplicitAny ] | uglifyjs > dist/bundle.min.js",
+    "setup-build": "mkdir dist"
   },
   "author": "Alex M",
   "license": "ISC",

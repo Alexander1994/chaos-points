@@ -10,19 +10,33 @@
             border: solid black 2px;
             display: block;
         }
-        #pointList {
+        #points {
             float: right;
+        }
+        #weight {
+            margin-bottom: 12px;
         }
         #pointList input {
             width: 36px;
         }
     </style>
-    <button id="genPointsBtn">Generate Points</button>
-    <input id="genPointsCount" type="number" value="500" />
 
-    <button id="clearGenPoints">Clear Generate Points</button>
-    <button id="clearUserPoints">Clear User Points</button>
-    <div id="pointList"></div>
+    <div>
+        <button id="genPointsBtn">Generate Points</button>
+        <input id="genPointsCount" type="number" value="500" />
+
+        <button id="clearGenPoints">Clear Generate Points</button>
+        <button id="clearUserPoints">Clear User Points</button>
+    </div>
+    <br/>
+    <div id="points">
+        <button id="setWeight">set all weights</button>
+        <input id="weight" type="number" value="0.5" />
+        <div id="pointList">
+
+        </div>
+    </div>
+
 
     <canvas width="570" height="570" id="canvasEl"></canvas>
     <script src="dist/bundle.min.js"></script>

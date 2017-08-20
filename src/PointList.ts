@@ -19,6 +19,16 @@ export class PointList {
     clearPointList(): void {
         this.pList = [];
     }
+    setAllPointsWeight(weight:number): boolean {
+        if (Point.isValidWeight(weight)) {
+            this.pList.forEach((p: Point, i: number, a: Point[])=> {
+                p.setWeight(weight);
+            });
+            return true;
+        }
+        return false;
+
+    }
     getRandomPoint(): Point {
         return this.pList[Math.floor(Math.random() * this.pList.length)];
     }
