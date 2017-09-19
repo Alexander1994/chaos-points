@@ -1,7 +1,7 @@
 # chaos-points
 The purpose of this application was to create and simulate [attractors](https://en.wikipedia.org/wiki/Attractor).
 
-url: [AlexMcCallum.me/chaos-points](AlexMcCallum.me/chaos-points)
+url: [AlexMcCallum.me/chaos-points](http://AlexMcCallum.me/chaos-points)
 
 
 ## Build
